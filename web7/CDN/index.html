@@ -7,15 +7,47 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   </head>
   <body>
-    <div class="container border border-success border-1 rounded-4">
-      <h1> class container</h1>
-  </div>
-  <div class="container-md border border-primary border-1 rounded-4">
-      <h1> class container-md</h1>
-  </div>
-  <div class="container-fluit border border-danger border-1 rounded-4">
-      <h1> class container-fluid</h1>
-  </div>
+    <!-- 3 columnas idénticas usando col -->
+    <div class="container border border-success border-1 text-center my-5">
+      <div class="row">
+        <div class="col border border-primary">col</div>
+        <div class="col border border-secondary">col</div>
+        <div class="col border border-danger">col</div>
+      </div>
+      </div>
+      <!-- 3 columnas idéticas usando col 4 -->
+      <div class="container text-center my-5">
+        <div class="row">
+          <div class="col-4 border border-primary">col-4</div>
+          <div class="col-4 border border-secondary">col-4</div>
+          <div class="col-4 border border-danger">col-4</div>
+        </div>
+      </div>
+      <!--2 columnas identicas y 1 desigual -->
+      <div class="container text-center my-5">
+        <div class="row">
+          <div class="col-2 border border-primary">col-2</div>
+          <div class="col-8 border border-secondary">col-8</div>
+          <div class="col-2 border border-danger">col-2</div>
+        </div>
+      </div>
+      <div class="container text-center my-5">
+        <div class="row">
+          <div class="col-md-2 border border-primary">col-2</div>
+          <div class="col-md-8 border border-secondary">col-8</div>
+          <div class="col-md-2 border border-danger">col-2</div>
+        </div>
+      </div>
+      <div class="container text-center my-5">
+        <div class="row">
+          <div class="col-md-2 col-sm-4 border border-primary">md-2 sm-4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste similique, modi sed laboriosam distinctio est. Nobis corporis aliquid magni, earum sed aperiam voluptates, mollitia vitae dolorem quaerat illum sequi itaque?</div>
+          <div class="col-md-8 col-sm-8 border border-secondary">md-8 sm-8 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam consequuntur, ab exercitationem quasi error corporis harum aspernatur voluptatum reprehenderit sit voluptas labore magni, ratione sed nisi cumque explicabo iusto! Veniam.
+          Reiciendis, maxime quas quaerat molestiae est minima, a repellendus expedita laborum, vel enim. Pariatur fuga vel ab veniam quas dolorem nihil! Ducimus temporibus a voluptate, laboriosam et minus! Rerum, quae.
+          Optio quis non porro perspiciatis ut, iste praesentium facere reprehenderit adipisci temporibus nihil veniam, veritatis iure sunt pariatur voluptate quos. Minus, ad harum. Reprehenderit impedit distinctio dolorem et ullam laboriosam.</div>
+          <div class="col-md-2 col-sm-12 border border-danger">md-2 sm-12 Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, laborum saepe a sed eaque nisi quod, soluta officiis assumenda distinctio provident numquam quia amet minima unde nesciunt non expedita illum.
+          Ratione hic accusantium facere ipsam quo libero assumenda quis totam nostrum sapiente non magnam aliquam at deleniti, ipsa dicta tenetur suscipit sint odit! Placeat suscipit consequuntur quidem doloribus voluptate aut.</div>
+        </div>
+      </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
   </body>
 </html>
